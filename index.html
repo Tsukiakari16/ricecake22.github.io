@@ -3,20 +3,50 @@
 	<style>
 		.banner{
 			font-size:30px;
+			color : white;
+		}
+		.banner:active{
+			color : cyan;
+		}
+		.banner:hover{
+			color : cyan;
+			background-color : black;
+		}
+		body{
+			background-image: url('background.png');
+			color : white;
+		}
+		.ch{
+			color : cyan;
+		}
+		.ch:hover{
+			color : hotpink;
+			background-color: white;
+		}
+		.invite{
+			color : white;
+			background-color: black;
+			text-decoration: none;
+			font-size : 25px;
+		}
+		.invite:hover{
+			background-color: white;
+			color : black;
 		}
 	</style>
+	<link rel = "icon" href="botchan.png">
 </head>
 
 <body>
 	<center>
-	<img src = "output1.png" height="300" , width="300">
+	<img src = "botchan.png" height="300" , width="300">
 	<br></br>
 	<a href = "updates.html" class = "banner">| Updates | </a>
 	<a href = "features.html" class = "banner">| Features | </a>
-	<a href = "Credits.html" class = "banner"> | Credits | </a>
+	<a href = "support.html" class = "banner"> | Support | </a>
 	</center>
-	<h1> Invite bot_chan into your server </h1><br></br>
-	<a href = 'https://discord.com/api/oauth2/authorize?client_id=768424174027800588&permissions=8&scope=bot'> Click here </a>
+	<h1 class = "abcd"> Invite bot_chan into your server </h1><br></br>
+	<a href = 'https://discord.com/oauth2/authorize?client_id=768424174027800588&permissions=268435474&scope=bot' class = 'invite'> Click here </a>
 	<h1> Commands </h1>
 	<p>
 		please type "bot_chan help" for more info <br></br>
@@ -26,4 +56,5 @@
 	please type "bot_chan bug [bug] for send me a bug"</br>
 </p>
 	<h1> use ; [message] for chatting with my bot</h1>
+	<br></br>
 </body>

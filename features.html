@@ -3,23 +3,32 @@
 	<style>
 		.features{
 			font-size : 25px;
+			color : white;
 	}
+		body{
+			background-image : url("background.png");
+		}
+		.a{
+			color : white;
+		}
 </style>
 <script>
 	function back(){
 		location.href= 'index.html';
 	}
 </script>
+<link rel = "icon" href = "botchan.png">
 </head>
 
 <body>
 	<button onclick="back()">Back </button>
 	<center>
-		<img src = "output1.png" height = "300" width = "300">
-	<h1> Bot_chan features </h1>
+		<img src = "botchan.png" height = "300" width = "300">
+	<h1 class = "a"> Bot_chan features </h1>
 	<br></br>
 
 </center>
+<div class = "features">
 <p class = "features"> [1]. Gives you a cat image <br></br>
 	[2]. Gives you a dog image <br></br>
 	[3]. Gives you a fox image <br></br>
@@ -41,3 +50,5 @@
 	[19]. Show user info <br></br>
 	[20]. Ask bot_chan question <br></br>
 </p>
+</div>
+</body>
