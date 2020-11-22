@@ -3,13 +3,27 @@
 	<style>
 		.features{
 			font-size : 25px;
-			color : white;
+			color : black;
 	}
 		body{
-			background-image : url("background.png");
+			background-color : lightblue;
+			color : black;
+			font-family: "Comic Sans MS";
 		}
 		.a{
+			color : black;
+		}
+		.back{
+			font-size : 23px;
+			text-decoration: none;
 			color : white;
+			background-color: black;
+		}
+		.back:hover{
+			font-size : 25px;
+			text-decoration: none;
+			color : hotpink;
+			background-color: grey;
 		}
 </style>
 <script>
@@ -21,7 +35,7 @@
 </head>
 
 <body>
-	<button onclick="back()">Back </button>
+	<a href = "index.html" class = "back"> Back </a>
 	<center>
 		<img src = "botchan.png" height = "300" width = "300">
 	<h1 class = "a"> Bot_chan features </h1>

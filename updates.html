@@ -3,13 +3,25 @@
 	<style>
 		.updates_list{
 			font-size : 25px;
-			color : white;
+			color : black;
 		}
 		body{
-			background-image: url('background.png');
+			background-color : lightblue;
+			font-family: "Comic Sans MS";
 		}
 		.thanks{
-			color : white;
+			color : black;
+		}
+		.back{
+			font-size : 23px;
+			text-decoration: none;
+			background-color: white;
+			color: black;
+		}
+		.back:hover{
+			font-size : 25px;
+			background-color: black;
+			color : hotpink;
 		}
 	</style>
 	<script>
@@ -18,10 +30,11 @@
 
 		}
 	</script>
+	<link rel='icon' href='botchan.png'>
 </head>
 
 <body>
-	<button onclick="back()"> Back </button>
+	<a href = "index.html" class = "back"> Back </a>
 	<ul class = "updates_list">
 		<li>Kick member </li>
 		<li>Adds text channel </li>
